@@ -1,0 +1,5 @@
+a="10010"
+decimal=int(a,2)
+octal=oct(int(a,2))
+print("decimal num ",decimal)
+print("octal num ",octal)
