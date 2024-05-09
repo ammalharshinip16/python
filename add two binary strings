@@ -1,0 +1,7 @@
+a="1000"
+b="0100"
+a=int(a,2)
+b=int(b,2)
+print(a,b)
+c=a+b
+print("sum of binary nums is ",bin(c))
