@@ -1,0 +1,15 @@
+s="ajsd #$6 ^ dakf@#"
+cc,dc,sp,spc=0,0,0,0
+for i in range(len(s)):
+   if s[i].isalpha():
+      cc+=1
+   elif s[i].isdigit():
+        dc+=1
+   elif s[i].isspace():
+        sp+=1
+   else:
+        spc+=1
+print("char count ",cc)
+print("digit count ",dc)
+print("space count ",sp)
+print("special char count ",spc)
