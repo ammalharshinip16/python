@@ -1,0 +1,8 @@
+import itertools
+
+st = "ABC"
+
+per = itertools.permutations(st)
+
+for val in per:
+	print(*val)
