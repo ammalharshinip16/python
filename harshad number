@@ -1,0 +1,14 @@
+mber and returns the sum of digits of the number.
+
+def calculate_sum_of_digits(N):
+    sumOfDigits = 0
+    while N > 0:
+        digit = N % 10
+        sumOfDigits = sumOfDigits + digit
+        N = N // 10
+    return sumOfDigits
+
+
+input_number = 4320
+output = calculate_sum_of_digits(input_number)
+print("Sum of digits of {} is {}.".format(input_number, output))
