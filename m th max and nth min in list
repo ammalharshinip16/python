@@ -1,0 +1,7 @@
+m=3
+n=2
+l=[2,7,3,5,6,9,1]
+l.sort()
+print(l)
+print("max",l[-m])
+print("min",l[n-1])
