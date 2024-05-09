@@ -1,0 +1,18 @@
+num1 = int(input("Enter the first integer: "))
+num2 = int(input("Enter the second integer: "))
+# Perform bitwise AND operation
+result_and = num1 & num2
+# Perform bitwise OR operation
+result_or = num1 | num2
+# Perform bitwise XOR operation
+result_xor = num1 ^ num2
+# Perform left shift operation
+result_left_shift = num1 << num2
+# Perform right shift operation
+result_right_shift = num1 >> num2
+# Print results in binary format
+print("Bitwise AND:", bin(result_and))
+print("Bitwise OR:", bin(result_or))
+print("Bitwise XOR:", bin(result_xor))
+print("Left Shift:", bin(result_left_shift))
+print("Right Shift:", bin(result_right_shift))
